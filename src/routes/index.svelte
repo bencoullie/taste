@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+  <title>Taste.gg</title>
+</svelte:head>
+
+<script>
+  import Profile from '../modules/Profile/Profile.svelte';
+</script>
+
+<h1>Welcome to Taste.gg</h1>
+<p>Let the world know what you like.</p>
+<Profile />
